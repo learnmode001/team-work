@@ -1,0 +1,98 @@
+<style>
+.back-button {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.next-button {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.stretch-buttion {
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    transition: padding-top 0.25s, 
+    padding-bottom 0.25s, 
+    padding-left 0.25s, 
+    padding-right 0.25s;
+}
+.stretch-buttion:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.shadow-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: margin-top 0.15s, 
+    margin-left 0.15s, 
+    box-shadow 0.15s;
+}
+.shadow-button:active {
+    margin-top: 2px;
+    margin-left: 2px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 1);
+}
+.common-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: padding-left 0.15s,
+    padding-right 0.15s, 
+    margin-left 0.15s,
+    margin-right 0.15s;
+}
+.common-button:hover {
+    margin-left: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+</style>
+
+<div style="margin-bottom: 20px;">
+    <button class="back-button">Back</button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button class="next-button">Next</button>
+</div>
+<div style="margin-bottom: 20px;">
+    <button class="stretch-buttion">Stretch</button>
+</div>
+<div style="margin-bottom: 20px;">
+    <button class="shadow-button">Shadow</button>
+</div>
+<div style="margin-bottom: 20px;">
+    <button class="common-button">One</button>
+    <button class="common-button">Two</button>
+    <button class="common-button">Three</button>
+</div>
